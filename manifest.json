@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "radio-status.network",
+  "name": "Network (Radio Status)",
+  "version": "1.0.0",
+  "author": "Thomas",
+  "description": "Wi-Fi list and connection state, with a distinct Disabled state when the Wi-Fi radio is off and Ethernet isn't connected",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Network (Radio Status)",
+    "description": "Wi-Fi list and connection state",
+    "category": "Network",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.network"
+  }
+}
