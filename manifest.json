@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "id": "omarchy_plus_radio-status.network",
   "name": "Network (Radio Status)",
-  "version": "1.0.0",
-  "author": "Thomas",
-  "description": "Wi-Fi list and connection state, with a distinct Disabled state when the Wi-Fi radio is off and Ethernet isn't connected",
+  "version": "1.0.1",
+  "author": "Claude Code / Thomas Alt",
+  "description": "Replaces the Omarchy network widget with a clone that shows an explicit Disabled state when the Wi-Fi radio is off and Ethernet isn't connected.",
   "kinds": [
     "bar-widget"
   ],
@@ -13,7 +13,7 @@
   },
   "barWidget": {
     "displayName": "Network (Radio Status)",
-    "description": "Wi-Fi list and connection state",
+    "description": "Replaces the Omarchy network widget with a clone that shows an explicit Disabled state when the Wi-Fi radio is off and Ethernet isn't connected.",
     "category": "Network",
     "allowMultiple": false
   },

@@ -29,11 +29,11 @@ None beyond stock Omarchy.
 
 ## Related
 
-Complements [omarchy-gsm-status](https://github.com/Thomster/omarchy-gsm-status)
-(GSM bar icon) and [omarchy-network-priority](https://github.com/Thomster/omarchy-network-priority)
-(Ethernet > Wi-Fi > GSM enforcement), but none of the three depend on each
-other — each reads Wi-Fi/Ethernet/GSM state directly rather than through one
-another.
+Part of a set of drop-in replacements for Omarchy's stock bar widgets, all named "*Stock name* (*Feature*)": [omarchy-recents-menu](https://github.com/Thomster/omarchy-recents-menu), [omarchy-session-actions-power](https://github.com/Thomster/omarchy-session-actions-power), [omarchy-arrange-monitor](https://github.com/Thomster/omarchy-arrange-monitor). Complements [omarchy-gsm-status](https://github.com/Thomster/omarchy-gsm-status) and [omarchy-network-priority](https://github.com/Thomster/omarchy-network-priority).
+
+## Changelog
+
+Current version: **1.0.1**. See [CHANGELOG.md](CHANGELOG.md).
 
 ## How this came to be
 
